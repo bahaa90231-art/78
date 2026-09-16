@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Primary Meta Tags -->
+    <title>الأستاذ شادي رحال | أستاذ لغة تركية وروائي - الأعمال الروائية والدروس</title>
+    <meta name="title" content="الأستاذ شادي رحال | أستاذ لغة تركية وروائي - الأعمال الروائية والدروس">
+    <meta name="description" content="الموقع الرسمي للأستاذ والروائي شادي رحال. قراءة أحدث الروايات (سكاي لاين، الأماكن، ماذا لو) ودورات تعلم اللغة التركية لجميع المستويات. تواصل مباشرة عبر واتساب.">
+    <meta name="keywords" content="شادي رحال, الأستاذ شادي رحال, تعلم اللغة التركية, روايات شادي رحال, رواية سكاي لاين, رواية الأماكن, رواية ماذا لو, كورس لغة تركية, مدرس لغة تركية, قراءة روايات اونلاين, كتب شادي رحال, تعليم تركية للمبتدئين">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="شادي رحال">
+    <meta name="language" content="Arabic">
+
+    <!-- Open Graph / WhatsApp Sharing -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://bahaa90231-art.github.io/-6575/">
+    <meta property="og:title" content="الأستاذ شادي رحال | أستاذ لغة تركية وروائي">
+    <meta property="og:description" content="اقرأ أحدث الأعمال الروائية للأستاذ شادي رحال وتعلم اللغة التركية بأحدث المناهج التعليمية.">
+
+    <!-- Google Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "شادي رحال",
+      "jobTitle": "أستاذ لغة تركية وروائي",
+      "telephone": "+306998442073",
+      "url": "https://bahaa90231-art.github.io/-6575/",
+      "knowsAbout": ["اللغة التركية", "الأدب العربي", "الروايات", "التعليم"]
+    }
+    </script>
+
+    <!-- Font Awesome Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <!-- Google Tajawal Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --primary: #1e3a8a;
+            --primary-light: #3b82f6;
+            --accent: #d97706;
+            --accent-glow: #fbbf24;
+            --dark-bg: #090d16;
+            --card-bg: #1e293b;
+            --card-hover: #24334d;
+            --text-light: #f8fafc;
+            --text-muted: #94a3b8;
+            --whatsapp: #25d366;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Tajawal', sans-serif;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background-color: var(--dark-bg);
+            color: var(--text-light);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: rgba(9, 13, 22, 0.95);
+            backdrop-filter: blur(12px);
+            z-index: 1000;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+            padding: 16px 6%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 900;
+            color: var(--text-light);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .logo span { color: var(--accent-glow); }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 25px;
+        }
+
+        .nav-links a {
+            color: var(--text-light);
+            text-decoration: none;
+            font-size: 1rem;
+            font-weight: 500;
+            transition: 0.3s;
+        }
+
+        .nav-links a:hover { color: var(--accent-glow); }
+
+        .hero {
+            min-height: 100vh;
+            padding: 130px 6% 60px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 40px;
+            background: radial-gradient(circle at 75% 25%, #1e1b4b 0%, #090d16 75%);
+        }
+
+        .hero-text { flex: 1.2; }
+
+        .badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: rgba(217, 119, 6, 0.15);
+            border: 1px solid var(--accent);
+            color: var(--accent-glow);
+            padding: 8px 18px;
+            border-radius: 30px;
+            font-size: 0.9rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+
+        .hero-text h1 {
+            font-size: clamp(2.2rem, 5vw, 3.5rem);
+            font-weight: 900;
+            margin-bottom: 18px;
+            line-height: 1.25;
+            background: linear-gradient(135deg, #ffffff 0%, #cbd5e1 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .hero-text p {
+            font-size: clamp(1rem, 2vw, 1.2rem);
+            color: var(--text-muted);
+            margin-bottom: 30px;
+            max-width: 650px;
+        }
+
+        .hero-btns {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            padding: 14px 28px;
+            border-radius: 12px;
+            text-decoration: none;
+            font-size: 1rem;
+            font-weight: 700;
+            transition: all 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, var(--accent) 0%, #b45309 100%);
+            color: white;
+            box-shadow: 0 6px 20px rgba(217, 119, 6, 0.35);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(217, 119, 6, 0.55);
+        }
+
+        .btn-whatsapp {
+            background: linear-gradient(135deg, #25d366 0%, #128c7e 100%);
+            color: white;
+            box-shadow: 0 6px 20px rgba(37, 211, 102, 0.3);
+        }
+
+        .btn-whatsapp:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(37, 211, 102, 0.5);
+        }
+
+        .hero-image {
+            flex: 0.9;
+            display: flex;
+            justify-content: center;
+            width: 100%;
+        }
+
+        .profile-card {
+            width: 100%;
+            max-width: 360px;
+            background: rgba(30, 41, 59, 0.7);
+            backdrop-filter: blur(16px);
+            border-radius: 28px;
+            padding: 30px 25px;
+            text-align: center;
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.6);
+        }
+
+        .profile-img-placeholder {
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, var(--primary-light), var(--accent));
+            margin: 0 auto 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 3.5rem;
+            color: white;
+            box-shadow: 0 10px 30px rgba(59, 130, 246, 0.35);
+            border: 4px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .profile-card h3 { font-size: 1.5rem; margin-bottom: 5px; }
+        .profile-card span { color: var(--accent-glow); font-size: 0.95rem; font-weight: 500; }
+
+        section { padding: 80px 6%; }
+
+        .section-header { text-align: center; margin-bottom: 50px; }
+        .section-header h2 { font-size: clamp(1.8rem, 4vw, 2.5rem); font-weight: 800; margin-bottom: 12px; }
+        .section-header h2 span { color: var(--accent-glow); }
+        .section-header p { color: var(--text-muted); font-size: 1.05rem; max-width: 600px; margin: 0 auto; }
+
+        .novels-section { background: linear-gradient(180deg, var(--dark-bg) 0%, #0f172a 100%); }
+
+        .novels-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+        }
+
+        .novel-card {
+            background: var(--card-bg);
+            border-radius: 20px;
+            overflow: hidden;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            transition: all 0.35s ease;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .novel-card:hover {
+            transform: translateY(-8px);
+            border-color: var(--accent);
+            box-shadow: 0 15px 35px rgba(217, 119, 6, 0.2);
+            background: var(--card-hover);
+        }
+
+        .novel-banner {
+            height: 160px;
+            background: linear-gradient(135deg, #1e3a8a 0%, #312e81 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+
+        .novel-banner i { font-size: 4rem; color: rgba(255, 255, 255, 0.25); }
+
+        .novel-badge {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            background: rgba(15, 23, 42, 0.85);
+            backdrop-filter: blur(8px);
+            color: var(--accent-glow);
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 700;
+            border: 1px solid rgba(245, 158, 11, 0.3);
+        }
+
+        .novel-body {
+            padding: 22px;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .novel-body h3 { font-size: 1.4rem; margin-bottom: 10px; color: var(--text-light); }
+        .novel-body p { color: var(--text-muted); font-size: 0.95rem; margin-bottom: 20px; line-height: 1.6; }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 25px;
+        }
+
+        .service-card {
+            background: var(--card-bg);
+            border-radius: 20px;
+            padding: 30px;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            transition: 0.3s;
+        }
+
+        .service-card:hover { transform: translateY(-5px); border-color: var(--accent); }
+
+        .service-icon {
+            width: 55px;
+            height: 55px;
+            border-radius: 14px;
+            background: rgba(217, 119, 6, 0.15);
+            color: var(--accent-glow);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.6rem;
+            margin-bottom: 20px;
+        }
+
+        .service-card h3 { font-size: 1.25rem; margin-bottom: 10px; }
+        .service-card p { color: var(--text-muted); font-size: 0.95rem; }
+
+        .contact-section { background: radial-gradient(circle at 50% 50%, #1e293b 0%, #090d16 100%); }
+
+        .contact-box {
+            max-width: 750px;
+            margin: 0 auto;
+            background: rgba(30, 41, 59, 0.6);
+            backdrop-filter: blur(12px);
+            border-radius: 28px;
+            padding: 40px 25px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            text-align: center;
+            box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+        }
+
+        .phone-display {
+            font-size: clamp(1.5rem, 4vw, 2.2rem);
+            font-weight: 900;
+            color: var(--text-light);
+            direction: ltr;
+            margin: 20px 0 25px;
+            letter-spacing: 1px;
+            display: inline-block;
+        }
+
+        .keywords-cloud {
+            margin-top: 40px;
+            padding: 20px;
+            background: rgba(15, 23, 42, 0.6);
+            border-radius: 16px;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            text-align: center;
+        }
+
+        .keywords-cloud h4 { color: var(--accent-glow); font-size: 0.95rem; margin-bottom: 12px; }
+
+        .keywords-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .keyword-tag {
+            background: rgba(255, 255, 255, 0.05);
+            color: var(--text-muted);
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.82rem;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+
+        footer {
+            padding: 30px 6%;
+            text-align: center;
+            color: var(--text-muted);
+            border-top: 1px solid rgba(255, 255, 255, 0.08);
+            background: #05080f;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 900px) {
+            .hero { flex-direction: column; text-align: center; padding-top: 120px; }
+            .hero-btns { justify-content: center; }
+            .hero-text p { margin-left: auto; margin-right: auto; }
+        }
+
+        @media (max-width: 600px) {
+            nav { padding: 14px 5%; }
+            .nav-links { display: none; }
+            .btn { width: 100%; }
+            .hero-btns { flex-direction: column; width: 100%; }
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <div class="logo">
+            <i class="fa-solid fa-graduation-cap"></i>
+            شادي <span>رحال</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#about">عن الأستاذ</a></li>
+            <li><a href="#novels">أحدث الروايات</a></li>
+            <li><a href="#services">الخدمات التعليمية</a></li>
+            <li><a href="#contact">التواصل</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero" id="about">
+        <div class="hero-text">
+            <div class="badge"><i class="fa-solid fa-star"></i> أستاذ لغة تركية وروائي مجاز</div>
+            <h1>الأستاذ شادي رحال</h1>
+            <p>خريج جامعي ومبدع في تدريس اللغة التركية بأساليب حديثة، وكاتب روائي ذو مؤلفات متميزة متاحة عبر محركات بحث جوجل والمكتبات الرقمية.</p>
+            <div class="hero-btns">
+                <a href="#novels" class="btn btn-primary">
+                    <i class="fa-solid fa-book-open"></i> استكشف الروايات
+                </a>
+                <a href="https://wa.me/306998442073" target="_blank" class="btn btn-whatsapp">
+                    <i class="fa-brands fa-whatsapp"></i> تواصل عبر واتساب
+                </a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="profile-card">
+                <div class="profile-img-placeholder">
+                    <i class="fa-solid fa-user-graduate"></i>
+                </div>
+                <h3>أ. شادي رحال</h3>
+                <span>مدرس لغة تركية & روائي</span>
+                <hr style="margin: 18px 0; border: none; border-top: 1px solid rgba(255,255,255,0.1);">
+                <p style="font-size: 0.9rem; color: var(--text-muted);">نظام تعليمي متكامل للغة التركية + مكتبة روائية إلكترونية حصرية.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="novels-section" id="novels">
+        <div class="section-header">
+            <h2>📖 أحدث <span>الأعمال الروائية</span></h2>
+            <p>مجموعة من أفضل الأعمال الأدبية والروايات المشوقة المتاحة للقراءة المباشرة</p>
+        </div>
+
+        <div class="novels-grid">
+            <article class="novel-card">
+                <div class="novel-banner" style="background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 100%);">
+                    <span class="novel-badge">رواية حصرية</span>
+                    <i class="fa-solid fa-city"></i>
+                </div>
+                <div class="novel-body">
+                    <div>
+                        <h3>رواية سكاي لاين</h3>
+                        <p>عمل روائي ممتع يأخذ القارئ في رحلة مشوقة بين أحداث العصر والتفاصيل الأدبية الساحرة.</p>
+                    </div>
+                    <a href="https://bahaa90231-art.github.io/-6575/skylane.html" target="_blank" class="btn btn-primary" style="width: 100%;">
+                        <i class="fa-solid fa-book-reader"></i> قراءة الرواية
+                    </a>
+                </div>
+            </article>
+
+            <article class="novel-card">
+                <div class="novel-banner" style="background: linear-gradient(135deg, #312e81 0%, #581c87 100%);">
+                    <span class="novel-badge">الأكثر قراءة</span>
+                    <i class="fa-solid fa-map-location-dot"></i>
+                </div>
+                <div class="novel-body">
+                    <div>
+                        <h3>رواية الأماكن</h3>
+                        <p>قصة تأخذك عبر الأزمنة والأماكن بأسلوب سردي يعكس عمق المشاعر والأدب الرفيع.</p>
+                    </div>
+                    <a href="https://bahaa90231-art.github.io/-6575/places.html" target="_blank" class="btn btn-primary" style="width: 100%;">
+                        <i class="fa-solid fa-book-reader"></i> قراءة الرواية
+                    </a>
+                </div>
+            </article>
+
+            <article class="novel-card">
+                <div class="novel-banner" style="background: linear-gradient(135deg, #701a75 0%, #831843 100%);">
+                    <span class="novel-badge">إصدار مميز</span>
+                    <i class="fa-solid fa-fire"></i>
+                </div>
+                <div class="novel-body">
+                    <div>
+                        <h3>رواية ماذا لو</h3>
+                        <p>رواية تثير التساؤلات العميقة وتأخذ القارئ في دراما مشوقة ومواقف تلامس القلوب.</p>
+                    </div>
+                    <a href="https://bahaa90231-art.github.io/-6575/what-if-war.html" target="_blank" class="btn btn-primary" style="width: 100%;">
+                        <i class="fa-solid fa-book-reader"></i> قراءة الرواية
+                    </a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="section-header">
+            <h2>🎓 التميز في <span>تدريس اللغة التركية</span></h2>
+            <p>خبرة أكاديمية واسعة في تبسيط قواعد اللغة التركية وتمكين الطلاب من إتقانها بحرفية</p>
+        </div>
+
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon"><i class="fa-solid fa-language"></i></div>
+                <h3>مناهج تعليمية معتمدة</h3>
+                <p>تقديم شروحات مخصصة لجميع المستويات (A1 حتى C1) وفق أحدث المناهج الأكاديمية.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon"><i class="fa-solid fa-comments"></i></div>
+                <h3>محادثة وتطوير النطق</h3>
+                <p>تركيز خاص على المهارات التفاعلية وحوارات الشارع واللغة اليومية لضمان الطلاقة بسرعة.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon"><i class="fa-brands fa-google"></i></div>
+                <h3>مكتبة جوجل الرقمية</h3>
+                <p>مكتبة مجهزة بالكامل ومتاحة عبر بحث جوجل للوصول السريع لجميع الروايات والمؤلفات.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+        <div class="contact-box">
+            <h2 style="font-size: clamp(1.6rem, 3.5vw, 2.2rem); margin-bottom: 10px;">💬 تواصل مع الأستاذ شادي رحال</h2>
+            <p style="color: var(--text-muted); font-size: 1rem;">للاستفسارات عن الدورات التعليمية أو اقتناء وقراءة الأعمال الروائية</p>
+            
+            <div class="phone-display">
+                <i class="fa-solid fa-phone" style="color: var(--accent-glow); margin-right: 8px;"></i>
+                +30 699 844 2073
+            </div>
+
+            <div>
+                <a href="https://wa.me/306998442073" target="_blank" class="btn btn-whatsapp" style="font-size: 1.1rem; padding: 16px 36px;">
+                    <i class="fa-brands fa-whatsapp" style="font-size: 1.4rem;"></i> مراسلة مباشرة عبر واتساب
+                </a>
+            </div>
+
+            <div class="keywords-cloud">
+                <h4>🔍 مواضيع وروايات الأستاذ شادي رحال</h4>
+                <div class="keywords-list">
+                    <span class="keyword-tag">شادي رحال</span>
+                    <span class="keyword-tag">تعلم اللغة التركية</span>
+                    <span class="keyword-tag">رواية سكاي لاين</span>
+                    <span class="keyword-tag">رواية الأماكن</span>
+                    <span class="keyword-tag">رواية ماذا لو</span>
+                    <span class="keyword-tag">مدرس تركية</span>
+                    <span class="keyword-tag">قراءة روايات</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>جميع الحقوق محفوظة © للأستاذ شادي رحال | أستاذ اللغة التركية والروائي 2026</p>
+    </footer>
+
+</body>
+</html>
