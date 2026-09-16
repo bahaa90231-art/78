@@ -204,25 +204,31 @@
             background: rgba(30, 41, 59, 0.7);
             backdrop-filter: blur(16px);
             border-radius: 28px;
-            padding: 30px 25px;
+            padding: 25px 20px;
             text-align: center;
             border: 1px solid rgba(255, 255, 255, 0.12);
             box-shadow: 0 25px 50px rgba(0, 0, 0, 0.6);
         }
 
-        .profile-img-placeholder {
-            width: 130px;
-            height: 130px;
-            border-radius: 50%;
-            background: linear-gradient(135deg, var(--primary-light), var(--accent));
+        /* Full face display framing */
+        .profile-img-container {
+            width: 220px;
+            height: 270px;
+            border-radius: 20px;
             margin: 0 auto 20px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 3.5rem;
-            color: white;
-            box-shadow: 0 10px 30px rgba(59, 130, 246, 0.35);
-            border: 4px solid rgba(255, 255, 255, 0.1);
+            padding: 3px;
+            background: linear-gradient(135deg, var(--accent), var(--primary-light));
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.5);
+            overflow: hidden;
+        }
+
+        .profile-img {
+            width: 100%;
+            height: 100%;
+            border-radius: 17px;
+            object-fit: contain;
+            background-color: #000;
+            display: block;
         }
 
         .profile-card h3 { font-size: 1.5rem; margin-bottom: 5px; }
@@ -433,8 +439,8 @@
         </div>
         <div class="hero-image">
             <div class="profile-card">
-                <div class="profile-img-placeholder">
-                    <i class="fa-solid fa-user-graduate"></i>
+                <div class="profile-img-container">
+                    <img src="WhatsApp Image 2026-09-16 at 9.38.40 PM.jpeg" alt="الأستاذ شادي رحال" class="profile-img">
                 </div>
                 <h3>أ. شادي رحال</h3>
                 <span>مدرس لغة تركية & روائي</span>
